@@ -149,12 +149,7 @@ main.container {
     line-height: 40px;
 
 }
-.button:active {
 
-}
-.web-site {
-
-}
 .apps {
     background-color: #00ca74;
 }
@@ -387,10 +382,7 @@ footer {
     font-size: 16px;
     line-height: 18px;
 }
-.modal-popup p {
-    /*margin: 0;*/
-    /*margin-bottom: 10px;*/
-}
+
 .modal-popup input {
     margin-bottom: 25px;
 }
@@ -401,11 +393,11 @@ footer {
     text-transform: uppercase;
     line-height: 18px;
     width: 220px;
-    height: 40px;
     box-sizing: border-box;
     border: 2px solid #eee;
     border-radius: 2px;
-    padding: 15px;
+    padding: 10px;
+    margin-top: 15px;
 }
 .popup-align {
     display: inline-block;
@@ -427,4 +419,5 @@ footer {
     border: 2px solid #eee;
     border-radius: 2px;
     margin-bottom: 50px;
+    margin-top: 15px;
 }

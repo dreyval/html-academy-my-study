@@ -4,7 +4,7 @@ var link = document.querySelector(".feedback-btn");
 
         link.addEventListener("click", function(event) {
             event.preventDefault();
-            popup.classList.add("modal-popup-show");
+            popup.classList.toggle("modal-popup-show");
             });
 
         popupClose.addEventListener("click", function(event) {

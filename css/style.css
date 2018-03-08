@@ -225,13 +225,7 @@ ul.work-list {
     text-align: center;
     opacity: 0.2;
 }
-.clients-item img {
 
-}
-
-.clients-item:last-child {
-    /*padding-top: 15px;*/
-}
 .clients-item:hover {
     opacity: 1;
 }
@@ -332,9 +326,9 @@ footer {
     line-height: 22px;
 
 }
-/*ниже идет офрмление всплывающего окна с формой для сообщений*/
+/*ниже идет оформление всплывающего окна с формой для сообщений*/
 .modal-popup {
-    /*display: none; !*отображение всплывающего окна с формой*!*/
+    display: none;
     position: absolute;
     top: 1600px;
     left: 315px;
@@ -347,8 +341,12 @@ footer {
     padding-bottom: 50px;
     margin-left: 315px;
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
-
 }
+
+.modal-popup-show {
+    display:block;
+}
+
 .modal-popup .button {
     display: block;
     border: none;
@@ -416,7 +414,6 @@ footer {
 .popup-name {
     margin-right: 16px;
 }
-// comment fo test
 .message-text {
     text-align: left;
     max-width: 460px;

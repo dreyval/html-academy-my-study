@@ -1,135 +1,117 @@
-<!doctype html>
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nerd`s design studio</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
+    <title>Welcome to Sedona</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="main-header">
-    <div class="container clearfix">
-        <div class="nerd-logo">
-            <img src="img/nerd-logo.png" width="139" height="56" alt="Nerd`s design studio">
-        </div>
-        <nav class="main-menu">
+<div class="container">
+    <header class="header">
+        <nav class="main-menu-popup">
             <ul>
-                <li><a class="current-page" href="#">Студия</a></li>
-                <li><a href="#">Клиенты</a></li>
-                <li><a href="#">Магазин</a></li>
-                <li><a href="#">Контакты</a></li>
-                <li><a href="#">Корзина</a></li>
+                <li><a class="main-menu-item" href="#">Главная</a></li>
+                <li><a class="main-menu-item" href="#">Фото и видео</a></li>
+                <li><a class="main-menu-item" href="#">Форма отзыва</a></li>
+                <li><a class="main-menu-item" href="#">HTML Academy</a></li>
             </ul>
         </nav>
-        <div class="main-slider">
-            <b>Долго, дорого,<br>
-                скрупулезно.</b>
-            <p>Математически выверенный дизайн<br>
-                для вашего сайта или мобильного приложения</p>
-            <a href="#" class="button">Узнать больше</a>
+      <div class="main-menu-spacer">
+        <img class="sedona-float-logo" src="img/logotype-mobile.svg" alt="logo">
+        <img class="menu-icon" src="img/icon-menu.svg">
+      </div>
+        <div class="header-bottom">
+            <img class="sedona-logo" src="img/sedona-logo.svg" alt="sedona-logotype">
         </div>
-    </div>
-</header>
-<main class="container">
-    <section class="features">
-        <div class="features-item">
-            <div class="feature-image"><img src="img/web-site.png" width="240" height="124" alt="website"></div>
-            <h2 class="features-name">Веб-сайты</h2>
-            <p>Мир никогда не будет прежним после того как увидит ваш сайт</p>
-            <a href="#" class="button web-site">Заказать</a>
-        </div>
-        <div class="features-item">
-            <div class="feature-image"><img src="img/apps.png" width="240" height="124" alt="apps"></div>
-            <h2 class="features-name">Приложения</h2>
-            <p>Покорите Топ-10 приложений в AppStore и Google Play</p>
-            <a href="#" class="button apps">Заказать</a>
-        </div>
-        <div class="features-item">
-            <div class="feature-image"><img src="img/presentations.png " width="240" height="124" alt="presentations">
-            </div>
-            <h2 class="features-name">Презентации</h2>
-            <p>Вы даже не подозреваете, насколько вы изумительны</p>
-            <a href="#" class="button present">Заказать</a>
-        </div>
-    </section>
-    <section class="about-info">
-        <div class="about-us">
-            <h2>Мы - маленькая, но гордая
-                дизайн-студия из Краснодара</h2>
-            <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем, не
-                покладая рук, как роботы</p>
-        </div>
-        <div class="about-work">
-            <h3>Выполняем заказы на разработку:</h3>
-            <ul class="work-list">
-                <li>Веб-сайтов любой сложности</li>
-                <li>Мобильных приложений для iOS и Android</li>
-                <li>Слайд-шоу и видео для корпоративных презентаций</li>
-            </ul>
-        </div>
-        <div class="about-work">
-            <h3>Как мы работаем:</h3>
-            <ul class="work-list">
-                <li>С самоотдачей 146%</li>
-                <li>Соблюдая сроки на 100%</li>
-                <li>По предоплате 50%</li>
-            </ul>
-        </div>
-    </section>
-    <section class="clients">
-        <div class="clients-item">
-            <img src="img/client-logo3.png" alt="client-logo1">
-        </div>
-        <div class="clients-item">
-            <img src="img/client-logo1.png" alt="client-logo2">
-        </div>
-        <div class="clients-item">
-            <img src="img/client-logo2.png" alt="client-logo3">
-        </div>
-    </section>
-</main>
-<footer>
-    <div class="footer-map">
-        <img src="img/map.jpg" width="1200" height="416" alt="map">
-        <div class="feedback"><!--здесь фоном идет карта-->
-            <h3>Nerds Design Studio</h3>
-            <p>191186, Санкт-Петеребург<br>
-                ул. Б. Конюшенная, д. 19/8</p>
-            <p>тел. +7 (812) 275-75-75</p>
-            <button type="button" class="button feedback-btn" title="Напишите нам">Напишите нам</button>
-        </div>
-    </div>
-    <div class="share">
-        <div class="icons">
-            <a class="social social-vk" href="#"></a><a class="social social-fb" href="#"></a><a
-                class="social social-tw" href="#"></a>
-        </div>
-        <div class="friends">
-            <h2>Давайте дружить, это выгодно!</h2>
-            <p>Скидка 10% для друзей из социальных сетей</p>
-        </div>
-    </div>
+    </header>
+    <main>
+        <section class="features-top">
 
-</footer>
-<div class="modal-popup">
-    <button class="modal-popup-close" type="button" title="Закрыть">Закрыть</button>
-    <form action="http://echo.htmlacademy.ru" method="post">
-        <div class="popup-align popup-name">
-            <label for="name">Ваше имя:<br></label>
-            <input class="message" type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
+                <h2>Седона - небольшой городок в аризоне,
+                     заслуживающий большего!</h2>
+                <p>Рассмотрим 5 причин, по которым седона круче, чем гранд-каньон!</p>
+
+        </section>
+        <section class="features-a">
+            <div class="features-a-item">
+                <h2 class="features-title-n">настоящий городок</h2>
+              <p>№1</p>
+                <p>седона не аттракцион для туристов, там течет своя жизнь</p>
+            </div>
+            <div class="features-a-image">
+              <!--<img src="img/photo-city-w320.jpg" alt="city" width="320" height="260">-->
+            </div>
+            
+        </section>
+        <section class="features-b">
+                <div class="features-b-item">
+                        <h2 class="house-icon">жилье</h2>
+                        <p>рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                </div>
+                <div class="features-b-item">
+                        <h2 class="food-icon">еда</h2>
+                        <p>всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                </div>
+                <div class="features-b-item">
+                        <h2 class="souvenir-icon">сувениры</h2>
+                        <p>не только китайского, но и местного производства</p>
+                </div>
+        </section>
+        <section class="features-c">
+
+                <div class="features-c-item">
+                        <h2>там есть мост дьявола</h2>
+                  <p>№2</p>
+                        <p>да, по нему можно пройти! если, конечно, вы осмелитесь</p>
+                </div>
+                <div class="features-c-image">
+                  <!--<img src="img/photo-bridge-w320.jpg" alt="bridge" width="320" height="260">-->
+                </div>
+                
+        </section>
+        <section class="features-d">
+                <div class="features-d-item">
+                    <h2>небольшая площадь</h2>
+                  <p>№3</p>
+                    <p>все достопримечательности находятся очень близко</p>
+                </div>
+                <div class="features-d-item">
+                    <h2>красивая дорога</h2>
+                  <p>№4</p>
+                    <p>ехать в седону из лас-вегаса совсем не скучно!</p>
+                </div>
+                <div class="features-d-item">
+                    <h2>мало туристов</h2>
+                  <p>№5</p>
+                    <p>большинство едет в гранд-каньон и толпятся там</p>
+                </div>
+        </section>
+        <section class="features-booking">
+            <b>заинтересовались?</b>
+            <p>укажите предполагаемые даты поездки
+                    и мы покажем вам лучшие гостиницы в седоне</p>
+            <button class="btn" type="button">найти гостиницу</button>
+        </section>
+        <section class="map-bottom">
+          <img src="img/map-mobile.jpg" alt="map" width="320" height="350">
+        </section>
+    </main>
+    <footer>
+        <div class="footer-sedona-logo">
+            #visitsedona
         </div>
-        <div class="popup-align popup-email">
-            <label for="email">Ваш E-mail:<br></label>
-            <input class="message" type="email" name="Ваш E-mail" id="email" placeholder="для отправки ответа">
+        <div class="footer-social">
+            <a class="social-btn tw" href="#">twitter</a>
+            <a class="social-btn fb" href="#">facebook</a>
+            <a class="social-btn yt" href="#">youtube</a>
         </div>
-        <label>Текст письма:</label>
-        <textarea class="message-text" name="message" cols="70" rows="8" placeholder="В свободной форме"></textarea>
-    </form>
-    <button class="button" type="submit" title="Отправить">Отправить</button>
+        <div class="footer-copyright">
+          <p><span> разработано </span> <a href="#"> <img src="img/htmlacademy.svg" alt="logo"> </a></p>
+        </div>
+    </footer>
 </div>
-    <script defer src="js/common.js"></script>
 </body>
 </html>

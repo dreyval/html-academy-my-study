@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav id="myTopnav" class="topnav">
+    <a href="#" class="bordered">Главная</a>
+    <a href="#" class="bordered">Фото и видео</a>
+    <a href="#" class="bordered">Форма отзыва</a>
+    <a href="#">HTML Academy</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </nav>
+  <div class="main-menu-spacer">
+    <img class="sedona-float-logo" src="img/logotype-mobile.svg" alt="logo">
+  </div>
+  <div class="header-bottom">
+    <img class="sedona-logo" src="img/sedona-logo.svg" alt="sedona-logotype">
+  </div>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+</body>
+
+</html>
+<header class="header">
+      <nav class="main-menu-popup">
+        <ul>
+          <li><a class="main-menu-item" href="#">Главная</a></li>
+          <li><a class="main-menu-item" href="#">Фото и видео</a></li>
+          <li><a class="main-menu-item" href="#">Форма отзыва</a></li>
+          <li><a class="main-menu-item" href="#">HTML Academy</a></li>
+        </ul>
+      </nav>
+      <div class="main-menu-spacer">
+        <img class="sedona-float-logo" src="img/logotype-mobile.svg" alt="logo">
+      </div>
+      <div class="header-bottom">
+        <img class="sedona-logo" src="img/sedona-logo.svg" alt="sedona-logotype">
+      </div>
+    </header>

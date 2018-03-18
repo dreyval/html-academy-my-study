@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style-fusion.css">
 </head>
 <body>
-  <section class="container">
+  <div class="container">
   <header class="header">
     <nav id="myTopnav" class="topnav">
       <a href="#" class="bordered">Главная</a>
@@ -18,13 +18,13 @@
       <a href="#" class="bordered">Форма отзыва</a>
       <a href="#">HTML Academy</a>
       <a href="javascript:void(0);" style="font-size:15px;" id="burger-icon" class="icon" onclick="myFunction()">&#9776;</a>
-      </nav>
-      <div class="main-menu-spacer">
+    </nav>
+    <div class="main-menu-spacer">
       <img class="sedona-float-logo" src="img/logotype-mobile.svg" alt="logo">
       </div>
       <div class="header-bottom">
       <img class="sedona-logo" src="img/sedona-logo.svg" alt="sedona-logotype">
-      </div>
+    </div>
   </header>
   <main class="grid">
       <section class="features-top">
@@ -39,11 +39,10 @@
       </section>
       <section class="features-a-image">
         <picture>
-        <source media="(max-width: 1100px)" srcset="img/photo-city@1x.jpg">
-        <source media="(max-width: 480px)" srcset="img/photo-city-w320.jpg">
-        <img src="img/photo-city-1x.jpg">
+          <source media="(max-width: 1100px)" srcset="img/photo-city@1x.jpg" >
+          <source media="(max-width: 480px)" srcset="img/photo-city-w320.jpg">
+          <img src="img/photo-city-1x.jpg" alt="photo of sedona city">
         </picture>
-          
       </section>
       <section class="features-b-item home">
           <h2 class="house-icon">жилье</h2>
@@ -57,19 +56,18 @@
           <h2 class="souvenir-icon">сувениры</h2>
           <p>не только китайского, но и местного производства</p>
       </section>
-
       <section class="features-c-item">
           <h2>там есть мост дьявола</h2>
           <p>№2</p>
           <p>да, по нему можно пройти! если, конечно, вы осмелитесь</p>
       </section>
-        <section class="features-c-image">
-          <picture>
-        <source media="(max-width: 1100px)" srcset="img/photo-bridge@1x.jpg">
-        <source media="(max-width: 480px)" srcset="img/photo-bridge-w320.jpg">
-        <img src="img/photo-bridge-1x.jpg">
+      <section class="features-c-image">
+        <picture>
+          <source media="(max-width: 1100px)" srcset="img/photo-bridge@1x.jpg">
+          <source media="(max-width: 480px)" srcset="img/photo-bridge-w320.jpg">
+          <img src="img/photo-bridge-1x.jpg" alt="photo of devils bridge">
         </picture>
-        </section>
+      </section>
       <section class="features-d-item">
           <h2>небольшая площадь</h2>
           <p>№3</p>
@@ -94,13 +92,9 @@
         <picture>
         <!-- <source media="(max-width: 1100px)" srcset="img/photo-bridge@1x.jpg"> -->
         <source media="(max-width: 480px)" srcset="img/map-mobile.jpg">
-        <img src="img/map-desktop-jpg.jpg">
+        <img src="img/map-desktop-jpg.jpg" alt="google maps. arizona">
         </picture>
-        
       </section>
-
-
-
   </main>
   <footer>
       <div class="footer-sedona-logo">
@@ -114,9 +108,9 @@
       <div class="footer-copyright">
         <p><span> разработано </span> <a href="#"> <img src="img/htmlacademy.svg" alt="logo"> </a></p>
       </div>
-    </footer>
+  </footer>
+  </div>
 
-</div>
   <script>
       function myFunction() {
           var x = document.getElementById("myTopnav");

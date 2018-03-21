@@ -7,44 +7,57 @@
   <title>Technomart</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
 </head>
 <body>
+	<div class="wrapper">
 <header class="header">
 	<div class="container">
 		<div class="headerTopline">
-			
 			<a class="headerToplineLogo" href="#">Техномарт</a>
-			
-			<label for="search">
-			<input id="search" class="searchForm" type="search" name="search">
-			</label>
-			
-			<a href="" class="favourites" href="#">Закладки: <span>0</span></a>
-			<a href="#" class="cart">Корзина: <span>0</span></a>
-			<a href="#" class=" btn btn-green">Оформить заказ</a>
-		</div>
-		<div class="headerMiddle">
+			<form class="searchForm">
+			<input class="search" placeholder="Поиск:" name="search">
+			<button class="searchButton" type="button"><i class="blue fas fa-search"></i></button>
+			</form>
+			<ul class="topLineRightBtns">
+				<li class="btnsItem"><a href="#" class="btn btn-favourites"><i class="fas fa-bookmark"></i> Закладки: <span>0</span></a></li>
+				<li class="btnsItem"><a href="#" class="btn btn-cart"><i class="fas fa-shopping-cart"></i> Корзина: <span>0</span></a></li>
+				<li class="btnsItem"><a href="#" class="btn btn-makeOrder">Оформить заказ</a></li>
+			</ul>
 
-			<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
 
-			<b>+7 (812) 555-05-55</b> г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8
-			<a href="#" class="btn">Войти</a>
-			<a href="#" class="btn">Регистрация</a>
+
+
 		</div>
+		<section class="headerMiddle">
+			<div class="headerMiddle_left">
+				<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+			</div>
+			<div class="headerMiddle_center">
+				<a class="phoneNumber" href="#">+7 (812) 555-05-55</a>
+				<p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
+			</div>
+			<div class="headerMiddle_right">
+				<a href="#" class="headerMiddle_button"><i class="fas fa-sign-in-alt login_icon"></i>Войти</a>
+				<a href="#" class="headerMiddle_button btnRegister">Регистрация</a>
+			</div>
+		</section>
 		<nav class="mainNavbar">
 			<ul class="flexMenu">
-				<li class="flexMenuItem">Главная</li>
-				<li class="flexMenuItem">Компания</li>
-				<li class="flexMenuItem">Каталог</li>
-				<li class="flexMenuItem">Новости</li>
-				<li class="flexMenuItem">Спецпредложения</li>
-				<li class="flexMenuItem">Доставка</li>
-				<li class="flexMenuItem">Контакты</li>
+				<li class="MenuListItem"><a class="flexMenuItem" href="#">Главная</a></li>
+				<li class="MenuListItem"><a class="flexMenuItem" href="#">Компания</a></li>
+				<li class="MenuListItem"><a class="flexMenuItem" href="#">Каталог</a></li>
+				<li class="MenuListItem"><a class="flexMenuItem" href="#">Новости</a></li>
+				<li class="MenuListItem"><a class="flexMenuItem" href="#">Спецпредложения</a></li>
+				<li class="MenuListItem"><a class="flexMenuItem" href="#">Доставка</a></li>
+				<li class="MenuListItem"><a class="flexMenuItem" href="#">Контакты</a></li>
 			</ul>
 		</nav>
 	</div>
 </header>
 <main>
+	<div class="container">
 	<section class="grid">
 		<div class="slider col-8">
 			<h2>Перфораторы</h2>
@@ -177,8 +190,10 @@
 			<button type="button" id="modalOpenBtn" class="btn btnRed">Заблудились? Напишите нам!</button>
 		</div>
 	</section>
+	</div>
 </main>
 <footer>
+	<div class="container">
 	<section class="footerTopLine">
 		<a class="footerToplineLogo" href="#">Техномарт</a>
 		<p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8
@@ -215,8 +230,9 @@
 			<a href="#">htmlacademy.ru</a>
 		</div>
 	</section>
+	</div>
 </footer>
-
+</div>
 
 
 

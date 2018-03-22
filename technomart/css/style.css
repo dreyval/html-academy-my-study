@@ -175,6 +175,9 @@
 .btn-makeOrder {
 	background-color: var(--green);
 }
+.btn-cart {
+	background-color: var(--red);
+}
 
 .btnRed {
 	display: inline-block;
@@ -323,7 +326,12 @@
 	font-family: Cuprum, Arial, sans-serif;
 	font-size: 17px;
 	padding: 20px;
+	width: 100%;
+	transition: 0.3s;
 }
+.flexMenuItem:hover {
+	 background-color: var(--darkblue);
+ }
 
 .grid {
 	display: grid;
@@ -481,7 +489,11 @@
 	grid-column: span 3;
 	border: 1px solid #f7f3ec;
 	padding: 22px 27px;
+	transition: 0.3s;
 
+}
+.featuredItemCard:hover {
+	box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
 }
 
 .itemCardTitle {
@@ -523,7 +535,7 @@
 
 .itemPhoto {
 	display: block;
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 	margin-bottom: auto;
 }
@@ -538,14 +550,22 @@
 	align-self: center;
 	border: 1px solid #f7f3ec;
 	min-height: 145px;
+	transition: 0.3s;
 	/*padding: 40px 40px;*/
+}
+.brandsLogo a {
+	display: block;
+}
+.brandsLogo:hover {
+	box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
 }
 
 .brand {
 	display: block;
 	max-width: 100%;
-	margin-top: auto;
+	height: auto;
 	margin-bottom: auto;
+	margin-top: auto;
 }
 
 .ourServices {
@@ -608,6 +628,7 @@
 	text-align: left;
 	padding: 19px 22px;
 	width: 100%;
+	transition: 0.5s;
 }
 
 .tablinks:not(:last-child) {
@@ -615,14 +636,21 @@
 	box-shadow: 0 2px 0 0 rgb(154, 194, 219);
 
 }
-.tablinks.active {
+.tab button.active,
+.tab button:hover {
 	color: var(--blue);
 	background-color: #fff;
 }
 
 .tabcontent {
+	display: none;
 	grid-column: 2 / 3;
 	padding-left: 80px;
+	transition: 0.5s;
+}
+.tabcontent .btnRed {
+	padding: 12px 44px;
+
 }
 
 .tab_header {
@@ -632,15 +660,32 @@
 
 }
 
+.tab_text {
+	margin-bottom: 33px;
+}
+
 .tab_credit,
 .tab_garanty {
-	display: none;
+	/*display: none;*/
+}
+.visible {
+	display: block;
 }
 
 .tab_delivery {
 	-webkit-background-size: 100%;
 	background-size: auto;
 	background: url(../img/delivery.png) no-repeat 100% 0;
+}
+.tab_garanty {
+	-webkit-background-size: 100%;
+	background-size: auto;
+	background: url(../img/guaranty.png) no-repeat 100% 0;
+}
+.tab_credit {
+	-webkit-background-size: 100%;
+	background-size: auto;
+	background: url(../img/credit.png) no-repeat 100% 0;
 }
 
 .aboutUs {

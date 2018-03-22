@@ -7,10 +7,12 @@
 	<title>Technomart</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
-		  integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css"
-		  integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js"
+			integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l"
+			crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"
+			integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
+			crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -160,24 +162,24 @@
 						Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 				</div>
 				<div class="tab">
-					<button class="tablinks active">Доставка</button>
-					<button class="tablinks">Гарантия</button>
-					<button class="tablinks">Кредит</button>
+					<button class="tablinks" type="button" onclick="openCity(event, 'delivery')">Доставка</button>
+					<button class="tablinks" type="button" onclick="openCity(event, 'garanty')">Гарантия</button>
+					<button class="tablinks" type="button" onclick="openCity(event, 'credit')">Кредит</button>
 				</div>
-				<div class="tabcontent tab_delivery">
+				<div id="delivery" class="tabcontent tab_delivery">
 					<h2 class="tab_header">Доставка</h2>
 					<p class="tab_text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно
 						бесплатно!
 						Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
 				</div>
-				<div class="tabcontent tab_garanty">
+				<div id="garanty" class="tabcontent tab_garanty">
 					<h2 class="tab_header">Гарантия</h2>
 					<p class="tab_text">Если купленный у нас товар поломается или заискрит, а также в случае пожара,
 						спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем
 						сгоревший товар на новый.
 						Дом уж восстановите как-нибудь сами.</p>
 				</div>
-				<div class="tabcontent tab_credit">
+				<div id="credit" class="tabcontent tab_credit">
 					<h2 class="tab_header">Кредит</h2>
 					<p class="tab_text">Залезть в долговую яму стало еще проще!
 						Кредитные консультанты придут вам на помощь.</p>
@@ -215,50 +217,50 @@
 	</main>
 	<footer>
 
-			<section class="footerTopLine">
-				<div class="container">
-					<a class="footerToplineLogo" href="#">Техномарт</a>
-					<p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8
-						+7 (812) 555-05-55</p>
-					<nav class="footerNav">
-						<ul>
-							<li>Компания</li>
-							<li>Новости</li>
-							<li>Каталог</li>
-							<li>Доставка</li>
-							<li>Контакты</li>
-							<li>Материалы</li>
-							<li>Техника</li>
-							<li>Инструмент</li>
-							<li>Спецпредложения</li>
-						</ul>
-					</nav>
+		<section class="footerTopLine">
+			<div class="container">
+				<a class="footerToplineLogo" href="#">Техномарт</a>
+				<p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8
+					+7 (812) 555-05-55</p>
+				<nav class="footerNav">
+					<ul>
+						<li>Компания</li>
+						<li>Новости</li>
+						<li>Каталог</li>
+						<li>Доставка</li>
+						<li>Контакты</li>
+						<li>Материалы</li>
+						<li>Техника</li>
+						<li>Инструмент</li>
+						<li>Спецпредложения</li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+		<section class="footerBottomLine">
+			<div class="container">
+				<div class="copyrights">
+					<p>2010-2018 Компания "Техномарт"
+						Все права защищены</p>
 				</div>
-			</section>
-			<section class="footerBottomLine">
-				<div class="container">
-					<div class="copyrights">
-						<p>2010-2018 Компания "Техномарт"
-							Все права защищены</p>
-					</div>
-					<div class="socialBtns">
-						<a href="#" class="socialBtn"></a>
-						<a href="#" class="socialBtn"></a>
-						<a href="#" class="socialBtn"></a>
-					</div>
-					<div class="links">
-						<h4>Обратная связь:</h4>
-						<p>mail@htmlacademy.ru</p>
+				<div class="socialBtns">
+					<a href="#" class="socialBtn"></a>
+					<a href="#" class="socialBtn"></a>
+					<a href="#" class="socialBtn"></a>
+				</div>
+				<div class="links">
+					<h4>Обратная связь:</h4>
+					<p>mail@htmlacademy.ru</p>
 
-						<h4>Разработано-</h4>
-						<a href="#">htmlacademy.ru</a>
-					</div>
+					<h4>Разработано-</h4>
+					<a href="#">htmlacademy.ru</a>
 				</div>
-			</section>
+			</div>
+		</section>
 
 	</footer>
 </div>
 
-
+<script src="js/main.js"></script>
 </body>
 </html>

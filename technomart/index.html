@@ -21,13 +21,15 @@
 			<div class="headerTopline">
 				<a class="headerToplineLogo" href="#">Техномарт</a>
 				<form class="searchForm">
-					<input class="search" placeholder="Поиск:" name="search">
-					<button class="searchButton" type="button"><i class="blue fas fa-search"></i></button>
+					<input class="search" placeholder="Поиск:" name="search" type="text">
+					<button class="searchButton" type="button"><i class="search_icon fas fa-search"></i></button>
 				</form>
 				<ul class="topLineRightBtns">
-					<li class="btnsItem"><a href="#" class="btn btn-favourites"><i class="fas fa-bookmark"></i>
+					<li class="btnsItem"><a href="#" class="btn btn-favourites"><i
+							class="fas fa-bookmark bookmark_icon"></i>
 						Закладки: <span>0</span></a></li>
-					<li class="btnsItem"><a href="#" class="btn btn-cart"><i class="fas fa-shopping-cart"></i> Корзина:
+					<li class="btnsItem"><a href="#" class="btn btn-cart"><i class="fas fa-shopping-cart cart_icon"></i>
+						Корзина:
 						<span>0</span></a></li>
 					<li class="btnsItem"><a href="#" class="btn btn-makeOrder">Оформить заказ</a></li>
 				</ul>
@@ -40,7 +42,8 @@
 
 				</div>
 				<div class="headerMiddle_center">
-					<a class="phoneNumber" href="#"> +7 (812) 555-05-55 </a>
+					<a class="phoneNumber" href="#"> <i class="fas fa-phone fa-flip-horizontal phone_icon"></i> +7 (812)
+						555-05-55 </a>
 					<p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
 				</div>
 				<div class="headerMiddle_right">
@@ -94,29 +97,66 @@
 					<a href="#" class="btn btnRed">Все популярные товары</a>
 				</div>
 				<div class="featuredItemCard">
-					<img class="itemPhoto" src="img/bfg9000.jpg" alt="product photo" width="184" height="164">
+					<div class="wrap">
+						<div class="itemPhoto_container">
+							<img class="itemPhoto" src="img/bfg9000.jpg" alt="product photo"
+								 width="184" height="164">
+						</div>
+						<div class="loop-action">
+							<a href="#" class="to_buy"><i class="fas fa-shopping-cart cart_icon"></i> Купить </a>
+							<a href="#" class="to_favourites">В закладки</a>
+						</div>
+					</div>
 					<h3 class="itemCardTitle">Перфоратор Bosch BFG 9000 </h3>
 					<span class="priceOld">32500р.</span>
 					<div class="priceTag">25500р.<span class="label"></span></div>
 				</div>
 				<div class="featuredItemCard">
-					<img class="itemPhoto" src="img/bfg3000.jpg" alt="product photo" width="127" height="112">
-					<h3 class="itemCardTitle">Перфоратор Bosch BFG 3000</h3>
+					<div class="wrap">
+						<div class="itemPhoto_container">
+							<img class="itemPhoto" src="img/bfg9000.jpg" alt="product photo"
+								 width="184" height="164">
+						</div>
+						<div class="loop-action">
+							<a href="#" class="to_buy"><i class="fas fa-shopping-cart cart_icon"></i> Купить </a>
+							<a href="#" class="to_favourites">В закладки</a>
+						</div>
+					</div>
+					<h3 class="itemCardTitle">Перфоратор Bosch BFG 9000 </h3>
 					<span class="priceOld">32500р.</span>
 					<div class="priceTag">25500р.<span class="label"></span></div>
 				</div>
 				<div class="featuredItemCard">
-					<img class="itemPhoto" src="img/bfg6000.jpg" alt="product photo" width="144" height="128">
-					<h3 class="itemCardTitle">Перфоратор Bosch BFG 6000</h3>
+					<div class="wrap">
+						<div class="itemPhoto_container">
+							<img class="itemPhoto" src="img/bfg9000.jpg" alt="product photo"
+								 width="184" height="164">
+						</div>
+						<div class="loop-action">
+							<a href="#" class="to_buy"><i class="fas fa-shopping-cart cart_icon"></i> Купить </a>
+							<a href="#" class="to_favourites">В закладки</a>
+						</div>
+					</div>
+					<h3 class="itemCardTitle">Перфоратор Bosch BFG 9000 </h3>
 					<span class="priceOld">32500р.</span>
 					<div class="priceTag">25500р.<span class="label"></span></div>
 				</div>
 				<div class="featuredItemCard">
-					<img class="itemPhoto" src="img/bfg3000.jpg" alt="product photo" width="127" height="112">
-					<h3 class="itemCardTitle">Перфоратор Bosch BFG 2000</h3>
+					<div class="wrap">
+						<div class="itemPhoto_container">
+							<img class="itemPhoto" src="img/bfg9000.jpg" alt="product photo"
+								 width="184" height="164">
+						</div>
+						<div class="loop-action">
+							<a href="#" class="to_buy"><i class="fas fa-shopping-cart cart_icon"></i> Купить </a>
+							<a href="#" class="to_favourites">В закладки</a>
+						</div>
+					</div>
+					<h3 class="itemCardTitle">Перфоратор Bosch BFG 9000 </h3>
 					<span class="priceOld">32500р.</span>
-					<div class="priceTag"> 25500р. <span class="label"></span></div>
+					<div class="priceTag">25500р.<span class="label"></span></div>
 				</div>
+				
 				<div class="featuredBrands ">
 					<h2 class="featured_header">Популярные производители:</h2>
 					<a href="#" class="btn btnRed">Все производители</a>
@@ -219,42 +259,69 @@
 	<footer>
 
 		<section class="footerTopLine">
-			<div class="container">
-				<a class="footerToplineLogo" href="#">Техномарт</a>
-				<p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8
-					+7 (812) 555-05-55</p>
+			<div class="container footerTopLine_grid">
+				<div class="footerTopLine-left">
+					<a class="footerToplineLogo" href="#">Техномарт</a>
+					<p class="footerTopLine_contacts">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8<br>
+						+7 (812) 555-05-55</p>
+				</div>
 				<nav class="footerNav">
-					<ul>
-						<li>Компания</li>
-						<li>Новости</li>
-						<li>Каталог</li>
-						<li>Доставка</li>
-						<li>Контакты</li>
-						<li>Материалы</li>
-						<li>Техника</li>
-						<li>Инструмент</li>
-						<li>Спецпредложения</li>
+					<ul class="footerNav-top_flex">
+						<li class="footerNav-top_list-item">
+							<a href="#" class="footerMenuItem">Компания</a>
+						</li>
+						<li class="footerNav-top_list-item">
+							<a href="#" class="footerMenuItem">Новости</a>
+						</li>
+						<li class="footerNav-top_list-item">
+							<a href="#" class="footerMenuItem">Каталог</a>
+						</li>
+						<li class="footerNav-top_list-item">
+							<a href="#" class="footerMenuItem">Доставка</a>
+						</li>
+						<li class="footerNav-top_list-item">
+							<a href="#" class="footerMenuItem">Контакты</a>
+						</li>
+					</ul>
+
+					<ul class="footerNav-bottom_flex">
+						<li class="footerNav-bottom_list-item">
+							<a href="#" class="footerMenuItem footerMenuItem_orange">Материалы</a>
+						</li>
+						<li class="footerNav-bottom_list-item">
+							<a href="#" class="footerMenuItem footerMenuItem_orange">Техника</a>
+						</li>
+						<li class="footerNav-bottom_list-item">
+							<a href="#" class="footerMenuItem footerMenuItem_orange">Инструмент</a>
+						</li>
+						<li class="footerNav-bottom_list-item">
+							<a href="#" class="footerMenuItem footerMenuItem_orange">Спецпредложения</a>
+						</li>
 					</ul>
 				</nav>
 			</div>
 		</section>
 		<section class="footerBottomLine">
-			<div class="container">
+			<div class="container footerBottomLine_flex">
 				<div class="copyrights">
-					<p>2010-2018 Компания "Техномарт"
-						Все права защищены</p>
+					<p class="copyright_text">2010-2018 Компания "Техномарт"</p>
+					<p class="copyright_text">Все права защищены</p>
 				</div>
-				<div class="socialBtns">
-					<a href="#" class="socialBtn"></a>
-					<a href="#" class="socialBtn"></a>
-					<a href="#" class="socialBtn"></a>
+				<div class="socialButtons">
+					<a href="#" class="socialBtn vk_icon">VK</a>
+					<a href="#" class="socialBtn fb_icon">FB</a>
+					<a href="#" class="socialBtn insta_icon">IN</a>
 				</div>
-				<div class="links">
-					<h4>Обратная связь:</h4>
-					<p>mail@htmlacademy.ru</p>
+				<div class="authors">
+					<div class="authors_mail">
+						<h4 class="authors_header">Обратная связь:</h4>
+						<a href="#" class="authors_links">mail@htmlacademy.ru</a>
+					</div>
 
-					<h4>Разработано-</h4>
-					<a href="#">htmlacademy.ru</a>
+					<div class="authors_website">
+						<h4 class="authors_header">Разработано - </h4>
+						<a href="#" class="authors_links">htmlacademy.ru</a>
+					</div>
 				</div>
 			</div>
 		</section>

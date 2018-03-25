@@ -199,7 +199,6 @@
 }
 
 .headerMiddle {
-	display: -ms-grid;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	/*grid-column-gap: 50px;*/
@@ -377,7 +376,6 @@
 }
 
 .grid {
-	display: -ms-grid;
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: repeat(12, minmax(30px, 1fr));
@@ -759,7 +757,6 @@
 }
 
 .grid_services {
-	display: -ms-grid;
 	display: grid;
 	grid-template-columns: 240px 1fr;
 }
@@ -883,7 +880,6 @@
 }
 
 .aboutUs_grid {
-	display: -ms-grid;
 	display: grid;
 	grid-template-columns: 1fr 300px;
 	grid-gap: 100px;
@@ -962,7 +958,6 @@
 }
 
 .footerTopLine_grid {
-	display: -ms-grid;
 	display: grid;
 	grid-template-columns: 350px 1fr;
 }
@@ -1040,7 +1035,6 @@
 }
 
 .footerBottomLine_flex {
-	display: -ms-grid;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	/*justify-content: space-between;*/
@@ -1091,7 +1085,6 @@
 
 .insta_icon {
 	background-position: -81px 10px;
-	
 
 }
 

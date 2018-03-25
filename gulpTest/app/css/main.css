@@ -1,0 +1,11 @@
+body {
+  background-color: #fff; }
+
+p {
+  color: grey;
+  background-color: blue; }
+
+.container {
+  color: #fff; }
+  .container .h2 {
+    color: #000; }

@@ -7,133 +7,714 @@
     <title>Project</title>
     <meta name="theme-color" content="">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="shortcut icon" href="../dest/img/favicons/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="../dest/img/favicons/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="../dest/img/favicons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../dest/img/favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../dest/img/favicons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../dest/img/favicons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../dest/img/favicons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../dest/img/favicons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../dest/img/favicons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../dest/img/favicons/apple-touch-icon-180x180.png">
-    <link rel="stylesheet" href="../dest/styles/main.min.css">
-    <link rel="stylesheet" href="../dest/styles/swiper.css">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+
     <!--[if lt IE 9]>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <![endif]-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:300,400,600,800&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/swiper.css">
+    <link rel="stylesheet" href="styles/main.min.css">
 </head>
 
 <body>
-        
-     <header class="header">
-        <div class="container">
+
+    <header class="header">
+        <div class="container header__container">
             <div class="top-navbar__wrapper">
                 <div class="top-navbar__logo">
                     <a href="#" class="top-navbar__logo-link">
-                            <svg class="waxem-logo" width="64px" height="56px"><use xlink:href="#waxem-logo"></use></svg>
+                        <svg class="waxem-logo" width="64px" height="56px">
+                            <use xlink:href="#waxem-logo"></use>
+                        </svg>
                         <span class="logo-title">Waxom</span>
                     </a>
-                    <div class="logo"></div>
+
                 </div>
                 <nav class="top-navbar__navbar">
                     <ul class="top-navbar__menu">
                         <li class="top-navbar__menu-item">
                             <a href="#" class="top-navbar__menu-item-link">Home</a>
-                        </li>
-                        <li class="top-navbar__menu-item">
-                            <a href="#" class="top-navbar__menu-item-link">About Us</a>
-                        </li>
-                        <li class="top-navbar__menu-item">
-                            <a href="#" class="top-navbar__menu-item-link">Portfolio</a>
-                        </li>
-                        <li class="top-navbar__menu-item">
-                            <a href="#" class="top-navbar__menu-item-link">Features</a>
-                        </li>
-                        <li class="top-navbar__menu-item">
-                            <a href="#" class="top-navbar__menu-item-link">Blog</a>
-                        </li>
-                        <li class="top-navbar__menu-item">
-                            <a href="#" class="top-navbar__menu-item-link">Pricing</a>
-                        </li>
-                        <li class="top-navbar__menu-item">
-                            <a href="#" class="top-navbar__menu-item-link">Shortcodes</a>
-                        </li>
-                        <li class="top-navbar__menu-item">
-                            <a href="#" class="top-navbar__menu-item-link">Contacts</a>
-                        </li>
+
+                            <li class="top-navbar__menu-item">
+                                <a href="#about-us" class="top-navbar__menu-item-link">About Us</a>
+
+                                <li class="top-navbar__menu-item">
+                                    <a href="#portfolio" class="top-navbar__menu-item-link">Portfolio</a>
+
+                                    <li class="top-navbar__menu-item">
+                                        <a href="#features" class="top-navbar__menu-item-link">Features</a>
+
+                                        <li class="top-navbar__menu-item">
+                                            <a href="#" class="top-navbar__menu-item-link">Blog</a>
+
+                                            <li class="top-navbar__menu-item">
+                                                <a href="#" class="top-navbar__menu-item-link">Pricing</a>
+
+                                                <li class="top-navbar__menu-item">
+                                                    <a href="#" class="top-navbar__menu-item-link">Shortcodes</a>
+                                                </li>
+                                                <li class="top-navbar__menu-item">
+                                                    <a href="#" class="top-navbar__menu-item-link">Contacts</a>
+
                     </ul>
                 </nav>
                 <div class="top-navbar__icons">
                     <a href="#" class="icon icon-cart">
-                        <svg class="icon-cart" width="18px" height="24px"><use xlink:href="#icon-cart"></use></svg>
+                        <svg class="icon-cart" width="18px" height="24px">
+                            <use xlink:href="#icon-cart"></use>
+                        </svg>
                         Cart
                     </a>
-                    <a href="#" class="icon icon-search"><svg class="icon-cart" width="24px" height="24px"><use xlink:href="#lupa"></use></svg>Search</a>
+                    <a href="#" class="icon icon-search">
+                        <svg class="icon-cart" width="24px" height="24px">
+                            <use xlink:href="#lupa"></use>
+                        </svg>Search</a>
                 </div>
             </div>
         </div>
-        <div class="swiper-container">
+        <div class="swiper-container swiper-container-1">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="swiper-slide__text-block">
-                        <h2>Portfolio PSD Template</h2>
-                        <h2>Unique and Modern Design</h2>
-                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
-                            facer possim assum.</p>
-                    </div>
+
+                    <h3 class="swiper-slide__h-top">Unique and Modern Design</h3>
+                    <h2 class="swiper-slide__h-bottom">Portfolio PSD Template</h2>
+                    <p class="swiper-slide__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
+                        facer possim assum.</p>
+                    <a href="#" class="btn btn--dark">Get started</a>
+
                 </div>
                 <div class="swiper-slide">
-                    <div class="swiper-slide__text-block">
-                        <h2>Portfolio PSD Template</h2>
-                        <h2>Unique and Modern Design</h2>
-                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
-                            facer possim assum.</p>
-                    </div>
+
+                    <h3 class="swiper-slide__h-top">Unique and Modern Design</h3>
+                    <h2 class="swiper-slide__h-bottom">Portfolio PSD Template</h2>
+                    <p class="swiper-slide__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
+                        facer possim assum.</p>
+                    <a href="#" class="btn btn--dark">Get started</a>
+
                 </div>
                 <div class="swiper-slide">
-                    <div class="swiper-slide__text-block">
-                        <h2>Portfolio PSD Template</h2>
-                        <h2>Unique and Modern Design</h2>
-                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
-                            facer possim assum.</p>
+
+                    <h3 class="swiper-slide__h-top">Unique and Modern Design</h3>
+                    <h2 class="swiper-slide__h-bottom">Portfolio PSD Template</h2>
+                    <p class="swiper-slide__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
+                        facer possim assum.</p>
+                    <a href="#" class="btn btn--dark">Get started</a>
+
+                </div>
+
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-pagination swiper-pagination-1"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+
+
+        <div class="header__overlay"></div>
+    </header>
+    <main>
+        <section id="features" class="features">
+            <div class="container grid-4">
+                <div class="features-item">
+                    <svg class="icons icon-pen" width="49px" height="49px">
+                        <use xlink:href="#icon-pen"></use>
+                    </svg>
+                    <h2 class="feature-title">Web & App Design</h2>
+                    <p class="feature-text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+                </div>
+                <div class="features-item">
+                    <svg class="icons  icon-papers" width="44px" height="40px">
+                        <use xlink:href="#icon-papers"></use>
+                    </svg>
+                    <h2 class="feature-title">Development</h2>
+                    <p class="feature-text">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                </div>
+                <div class="features-item">
+                    <svg class="icons icon-gear" width="44px" height="44px">
+                        <use xlink:href="#icon-gear"></use>
+                    </svg>
+                    <h2 class="feature-title">Customization</h2>
+                    <p class="feature-text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+                </div>
+                <div class="features-item">
+                    <svg class="icons icon-folder" width="44px" height="40px">
+                        <use xlink:href="#icon-folder"></use>
+                    </svg>
+                    <h2 class="feature-title">Development</h2>
+                    <p class="feature-text">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about-us" class="about-us">
+            <div class="container">
+                <h2 class="about-us__title">Waxom is Realization of your Ideas.</h2>
+                <p class="about-us__text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus
+                    dynamicus, qui sequitur mutationem consuetudium.</p>
+                <img class="about-us__image" src="img/browser-center.png" alt="templates image">
+            </div>
+        </section>
+        <section id="purchase" class="purchase">
+            <div class="container purchase__container">
+                <div class="div">
+                    <h2 class="purchase-title">
+                        <span class="color-accent">Waxom</span> Multipurpose WordPress Theme</h2>
+                    <p class="purchase-text">Don't Forget to Rate the Template. Thanks so much!</p>
+                </div>
+                <a href="#" class="btn btn-purchase">Purchase now</a>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2 class="portfolio-section__header-title">Our Latest Projects.</h2>
+                <p class="portfolio-section__header-text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus
+                    dynamicus, qui sequitur mutationem consuetudium.</p>
+                <ul class="portfolio-section__navbar">
+                    <li class="portfolio-section__navbar__list-item">
+                        <a href="#" class="portfolio-section__navbar__list-item__link portfolio-section__navbar__list-item__link--active">All</a>
+                    </li>
+                    <li class="portfolio-section__navbar__list-item">
+                        <a href="#" class="portfolio-section__navbar__list-item__link">Web Design</a>
+                    </li>
+                    <li class="portfolio-section__navbar__list-item">
+                        <a href="#" class="portfolio-section__navbar__list-item__link">Mobile App</a>
+                    </li>
+                    <li class="portfolio-section__navbar__list-item">
+                        <a href="#" class="portfolio-section__navbar__list-item__link">Illustration</a>
+                    </li>
+                    <li class="portfolio-section__navbar__list-item">
+                        <a href="#" class="portfolio-section__navbar__list-item__link">Photography</a>
+                    </li>
+                </ul>
+                <ul class="portfolio-section__portfolio-items">
+                    <li class="portfolio-item">
+                        <div class="portfolio-item__wrapper">
+                            <div class="portfolio-item__image">
+                                <img src="img/photo11.jpg" width="370" height="237" alt="smartphone image">
+                                <div class="portfolio-item__overlay">
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#link"></use>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#lupa"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-item__title">
+                                <h2 class="portfolio-item__title__header">Claritas Etiam Processus</h2>
+                                <p class="portfolio-item__title__tags-list">Photography, Nature</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="portfolio-item">
+                        <div class="portfolio-item__wrapper">
+                            <div class="portfolio-item__image">
+                                <img src="img/photo12.jpg" width="370" height="237" alt="smartphone image">
+                                <div class="portfolio-item__overlay">
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#link"></use>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#lupa"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-item__title">
+                                <h2 class="portfolio-item__title__header">Claritas Etiam Processus</h2>
+                                <p class="portfolio-item__title__tags-list">Photography, Nature</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="portfolio-item">
+                        <div class="portfolio-item__wrapper">
+                            <div class="portfolio-item__image">
+                                <img src="img/photo13.jpg" width="370" height="237" alt="smartphone image">
+                                <div class="portfolio-item__overlay">
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#link"></use>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#lupa"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-item__title">
+                                <h2 class="portfolio-item__title__header">Claritas Etiam Processus</h2>
+                                <p class="portfolio-item__title__tags-list">Photography, Nature</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="portfolio-item">
+                        <div class="portfolio-item__wrapper">
+                            <div class="portfolio-item__image">
+                                <img src="img/photo14.jpg" width="370" height="237" alt="smartphone image">
+                                <div class="portfolio-item__overlay">
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#link"></use>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#lupa"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-item__title">
+                                <h2 class="portfolio-item__title__header">Claritas Etiam Processus</h2>
+                                <p class="portfolio-item__title__tags-list">Photography, Nature</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="portfolio-item">
+                        <div class="portfolio-item__wrapper">
+                            <div class="portfolio-item__image">
+                                <img src="img/photo15.jpg" width="370" height="237" alt="smartphone image">
+                                <div class="portfolio-item__overlay">
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#link"></use>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#lupa"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-item__title">
+                                <h2 class="portfolio-item__title__header">Claritas Etiam Processus</h2>
+                                <p class="portfolio-item__title__tags-list">Photography, Nature</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="portfolio-item">
+                        <div class="portfolio-item__wrapper">
+                            <div class="portfolio-item__image">
+                                <img src="img/photo16.jpg" width="370" height="237" alt="smartphone image">
+                                <div class="portfolio-item__overlay">
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#link"></use>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="portfolio-item__overlay__link">
+                                        <svg class="icon-link" width="26px" height="26px">
+                                            <use xlink:href="#lupa"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-item__title">
+                                <h2 class="portfolio-item__title__header">Claritas Etiam Processus</h2>
+                                <p class="portfolio-item__title__tags-list">Photography, Nature</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn--dark">Load more</a>
+            </div>
+        </section>
+        <section id="video-presentation" class="video-presentation">
+            <div class="video-presentation__overlay"></div>
+            <a href="#" class="play-button" title="play video">
+                <svg class="icon-play">
+                    <use xlink:href="#icon-play"></use>
+                </svg>
+            </a>
+            <h2 class="video-presentation__title">Waxom Video Presentation</h2>
+            <p class="video-presentation__subtitle">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
+
+        </section>
+        <section id="mobile-ready" class="mobile-section">
+            <div class="container mobile-section__grid">
+                <div class="mobile-section__image-wrapper">
+                    <img src="img/iphone-in-hand.png" alt="smartphone on hand" class="mobile-section__image" width="423" height="616">
+                </div>
+                <div class="mobile-section__text-wrapper">
+                    <h3 class="mobile-section__title">Excellent for Mobile Devices.</h3>
+                    <p class="mobile-section__text">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
+                        ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius
+                        claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                    <ul class="mobile-section__features-list">
+                        <li class="mobile-section__feature-item">Nam liber tempor cum soluta nobis eleifend option;
+                        </li>
+                        <li class="mobile-section__feature-item">Option congue nihil imperdiet doming id quod mazim placerat facer;
+                        </li>
+                        <li class="mobile-section__feature-item">Eodem modo typi, qui nunc nobis videntur parum futurum;
+                        </li>
+                        <li class="mobile-section__feature-item">Investigationes demonstraverunt lectores</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="achievements-section">
+            <div class="container grid-5">
+                <div class="achievements-section__item">
+                    <svg class="achievements-section__icons icon-head" width="44px" height="44px">
+                        <use xlink:href="#icon-head"></use>
+                    </svg>
+                    <h2 class="achievements-section__title">3452</h2>
+                    <p class="achievements-section__text">Satisfied Clients</p>
+                </div>
+                <div class="achievements-section__item">
+                    <svg class="achievements-section__icons  icon-coffee" width="48px" height="44px">
+                        <use xlink:href="#icon-coffee"></use>
+                    </svg>
+                    <h2 class="achievements-section__title">207</h2>
+                    <p class="achievements-section__text">Cups of coffee</p>
+                </div>
+                <div class="achievements-section__item">
+                    <svg class="achievements-section__icons icon-message" width="44px" height="44px">
+                        <use xlink:href="#icon-message"></use>
+                    </svg>
+                    <h2 class="achievements-section__title">2500</h2>
+                    <p class="achievements-section__text">Blog posts</p>
+                </div>
+                <div class="achievements-section__item">
+                    <svg class="achievements-section__icons icon-heart" width="44px" height="44px">
+                        <use xlink:href="#icon-heart"></use>
+                    </svg>
+                    <h2 class="achievements-section__title">900</h2>
+                    <p class="achievements-section__text">Likes</p>
+                </div>
+                <div class="achievements-section__item">
+                    <svg class="achievements-section__icons icon-dish" width="54px" height="44px">
+                        <use xlink:href="#icon-dish"></use>
+                    </svg>
+                    <h2 class="achievements-section__title">870</h2>
+                    <p class="achievements-section__text">We launched</p>
+                </div>
+            </div>
+        </section>
+        <!-- no-slider version -->
+        <!-- <section class="blog-posts">
+            <div class="container">
+                <div class="blog-posts__header">
+                    <h2 class="blog-posts__title">Recent Posts.</h2>
+                    <p class="blog-posts__text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus
+                        dynamicus, qui sequitur mutationem consuetudium.</p>
+                </div>
+                <div class="blog-posts__cards">
+                    <div class="blog-posts__cards__wrapper">
+                        <div class="blog-posts__cards__image">
+                            <img src="img/photo3.jpg" width="370" height="220" alt="smartphone image">
+                            <div class="blog-posts__cards__overlay">
+
+                            </div>
+                        </div>
+                        <div class="blog-posts__cards__title">
+                            <h2 class="blog-posts__cards__header">Lorem ipsum dolor sit amet</h2>
+                            <p class="blog-posts__cards__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                            <a href="#" class="blog-posts__cards__link">Read more</a>
+                        </div>
+                    </div>
+                    <div class="blog-posts__cards__wrapper">
+                        <div class="blog-posts__cards__image">
+                            <img src="img/photo4.jpg" width="370" height="220" alt="smartphone image">
+                            <div class="blog-posts__cards__overlay">
+
+                            </div>
+                        </div>
+                        <div class="blog-posts__cards__title">
+                            <h2 class="blog-posts__cards__header">Lorem ipsum dolor sit amet</h2>
+                            <p class="blog-posts__cards__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                            <a href="#" class="blog-posts__cards__link">Read more</a>
+                        </div>
+                    </div>
+                    <div class="blog-posts__cards__wrapper">
+                        <div class="blog-posts__cards__image">
+                            <img src="img/photo5.jpg" width="370" height="220" alt="smartphone image">
+                            <div class="blog-posts__cards__overlay">
+
+                            </div>
+                        </div>
+                        <div class="blog-posts__cards__title">
+                            <h2 class="blog-posts__cards__header">Lorem ipsum dolor sit amet</h2>
+                            <p class="blog-posts__cards__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                            <a href="#" class="blog-posts__cards__link">Read more</a>
+                        </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide__text-block">
-                        <h2>Portfolio PSD Template</h2>
-                        <h2>Unique and Modern Design</h2>
-                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
-                            facer possim assum.</p>
+
+            </div>
+        </section> -->
+        <section class="blog-posts">
+            <div class="container">
+                <div class="blog-posts__header">
+                    <h2 class="blog-posts__title">Recent Posts.</h2>
+                    <p class="blog-posts__text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus
+                        dynamicus, qui sequitur mutationem consuetudium.</p>
+                </div>
+                <div class="swiper-container swiper-container-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="blog-posts__cards__wrapper">
+                                <div class="blog-posts__cards__image">
+                                    <div class="blog-posts__date-label">
+                                        <div class="blog-posts__date-label__day">30</div>
+                                        <div class="blog-posts__date-label__month">Sep.</div>
+                                    </div>
+                                    <div class="blog-posts__date-label">
+                                        <div class="blog-posts__date-label__day">30</div>
+                                        <div class="blog-posts__date-label__month">Sep.</div>
+                                    </div>
+                                    <img src="img/photo3.jpg" width="370" height="220" alt="smartphone image">
+                                    <div class="blog-posts__cards__overlay">
+
+                                    </div>
+                                </div>
+                                <div class="blog-posts__cards__title">
+                                    <h2 class="blog-posts__cards__header">Lorem ipsum dolor sit amet</h2>
+                                    <p class="blog-posts__cards__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                    <a href="#" class="blog-posts__cards__link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts__cards__wrapper">
+                                <div class="blog-posts__cards__image">
+                                    <div class="blog-posts__date-label">
+                                        <div class="blog-posts__date-label__day">30</div>
+                                        <div class="blog-posts__date-label__month">Sep.</div>
+                                    </div>
+                                    <img src="img/photo4.jpg" width="370" height="220" alt="smartphone image">
+                                    <div class="blog-posts__cards__overlay">
+
+                                    </div>
+                                </div>
+                                <div class="blog-posts__cards__title">
+                                    <h2 class="blog-posts__cards__header">Lorem ipsum dolor sit amet</h2>
+                                    <p class="blog-posts__cards__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                    <a href="#" class="blog-posts__cards__link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts__cards__wrapper">
+                                <div class="blog-posts__cards__image">
+                                    <div class="blog-posts__date-label">
+                                        <div class="blog-posts__date-label__day">30</div>
+                                        <div class="blog-posts__date-label__month">Sep.</div>
+                                    </div>
+                                    <img src="img/photo5.jpg" width="370" height="220" alt="smartphone image">
+                                    <div class="blog-posts__cards__overlay">
+
+                                    </div>
+                                </div>
+                                <div class="blog-posts__cards__title">
+                                    <h2 class="blog-posts__cards__header">Lorem ipsum dolor sit amet</h2>
+                                    <p class="blog-posts__cards__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                    <a href="#" class="blog-posts__cards__link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts__cards__wrapper">
+                                <div class="blog-posts__cards__image">
+                                    <div class="blog-posts__date-label">
+                                        <div class="blog-posts__date-label__day">30</div>
+                                        <div class="blog-posts__date-label__month">Sep.</div>
+                                    </div>
+                                    <img src="img/photo3.jpg" width="370" height="220" alt="smartphone image">
+                                    <div class="blog-posts__cards__overlay">
+
+                                    </div>
+                                </div>
+                                <div class="blog-posts__cards__title">
+                                    <h2 class="blog-posts__cards__header">Lorem ipsum dolor sit amet</h2>
+                                    <p class="blog-posts__cards__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                    <a href="#" class="blog-posts__cards__link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts__cards__wrapper">
+                                <div class="blog-posts__cards__image">
+                                    <div class="blog-posts__date-label">
+                                        <div class="blog-posts__date-label__day">30</div>
+                                        <div class="blog-posts__date-label__month">Sep.</div>
+                                    </div>
+                                    <img src="img/photo4.jpg" width="370" height="220" alt="smartphone image">
+                                    <div class="blog-posts__cards__overlay">
+
+                                    </div>
+                                </div>
+                                <div class="blog-posts__cards__title">
+                                    <h2 class="blog-posts__cards__header">Lorem ipsum dolor sit amet</h2>
+                                    <p class="blog-posts__cards__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                    <a href="#" class="blog-posts__cards__link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-posts__cards__wrapper">
+                                <div class="blog-posts__cards__image">
+                                    <div class="blog-posts__date-label">
+                                        <div class="blog-posts__date-label__day">30</div>
+                                        <div class="blog-posts__date-label__month">Sep.</div>
+                                    </div>
+                                    <img src="img/photo5.jpg" width="370" height="220" alt="smartphone image">
+                                    <div class="blog-posts__cards__overlay">
+
+                                    </div>
+                                </div>
+                                <div class="blog-posts__cards__title">
+                                    <h2 class="blog-posts__cards__header">Lorem ipsum dolor sit amet</h2>
+                                    <p class="blog-posts__cards__text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                    <a href="#" class="blog-posts__cards__link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Add Pagination -->
+
+                </div>
+
+
+            </div>
+        </section>
+        <section class="clients">
+            <div class="container clients__wrapper">
+
+                <div class="clients__item">
+                    <img class="clients__item__logo" src="img/logo-01.png" width="210" height="127" alt="client logotype">
+                </div>
+                <div class="clients__item">
+                    <img class="clients__item__logo" src="img/logo-02.png" width="210" height="210" alt="client logotype">
+                </div>
+                <div class="clients__item">
+                    <img class="clients__item__logo" src="img/logo-03.png" width="210" height="130" alt="client logotype">
+                </div>
+                <div class="clients__item">
+                    <img class="clients__item__logo" src="img/logo-04.png" width="210" height="164" alt="client logotype">
+                </div>
+
+            </div>
+            <div class="clients__overlay"></div>
+        </section>
+    </main>
+    <footer class="footer-section">
+
+        <div class="footer-section__top ">
+            <div class="container footer-section__grid">
+                <div class="footer-section__widget">
+                    <div class="footer-section__logo">
+                        <a href="#" class="footer-section__logo-link">
+                            <svg class="waxem-logo" width="64px" height="56px">
+                                <use xlink:href="#waxem-logo"></use>
+                            </svg>
+                            <span>Waxom</span>
+                        </a>
+
+                    </div>
+                    <p class="footer-section__widget__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quam rem facilis maxime esse quia eum
+                        totam consectetur consequatur, voluptatem voluptatibus recusandae neque, enim officiis omnis. Magnam
+                        excepturi quasi optio.</p>
+                    <a href="#" class="footer-section__widget__link" title="read more">Read more</a>
+                </div>
+                <div class="footer-section__widget">
+                    <h2 class="footer-section__widget__title">Recent posts</h2>
+                    <div class="footer-section__widget__text-block">
+
+                        <a href="#" class="footer-section__widget__post-link footer-section__widget__text">
+                            <span class="footer-section__widget__date-tag">September 30, 2017</span>
+                            <p class="footer-section__widget__post-link__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, inventore?</p>
+                        </a>
+                    </div>
+                    <div class="footer-section__widget__text-block">
+                            <a href="#" class="footer-section__widget__post-link footer-section__widget__text">
+                                    <span class="footer-section__widget__date-tag">September 30, 2017</span>
+                                    <p class="footer-section__widget__post-link__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, inventore?</p>
+                                </a>
+                    </div>
+                    <div class="footer-section__widget__text-block">
+                            <a href="#" class="footer-section__widget__post-link footer-section__widget__text">
+                                    <span class="footer-section__widget__date-tag">September 30, 2017</span>
+                                    <p class="footer-section__widget__post-link__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, inventore?</p>
+                                </a>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide__text-block">
-                        <h2>Portfolio PSD Template</h2>
-                        <h2>Unique and Modern Design</h2>
-                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
-                            facer possim assum.</p>
+                <div class="footer-section__widget">
+                    <h2 class="footer-section__widget__title">Our Twitter</h2>
+                    <div class="footer-section__widget__text-block">
+
+                        <p class="footer-section__widget__text">
+                            <span class="footer-section__twitter-link">@waxom</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, rem. Nulla,
+                            accusamus?
+                        </p>
+                        <span class="footer-section__widget__time-tag">15 min. ago</span>
+                    </div>
+                    <div class="footer-section__widget__text-block">
+
+                        <p class="footer-section__widget__text"> Lorem, ipsum
+                            <span class="footer-section__twitter-link">#envato</span> dolor sit amet consectetur adipisicing elit. Debitis, rem. Nulla, accusamus?</p>
+                        <span class="footer-section__widget__time-tag">15 min. ago</span>
+                    </div>
+                </div>
+                <div class="footer-section__widget">
+                    <h2 class="footer-section__widget__title">Dribbble Widget</h2>
+                    <div class="footer-section__widget__image-container">
+                        <img src="img/thumb1.jpg" alt="dribbble image" class="footer-section__widget__thumbnail">
+                        <img src="img/thumb2.jpg" alt="" class="footer-section__widget__thumbnail">
+                        <img src="img/thumb3.jpg" alt="" class="footer-section__widget__thumbnail">
+                        <img src="img/thumb4.jpg" alt="" class="footer-section__widget__thumbnail">
                     </div>
                 </div>
             </div>
-            <!-- Add Arrows -->
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-
         </div>
-        <div class="header__overlay"></div>
-    </header>
+        <div class="footer-section__bottom">
+            <div class="container footer-section__bottom__flex-container">
+                <ul class="footer-section__copyright">
+                    <li class="footer-section__copyright__items">Copyright 2017 Waxom</li>
+                    <li class="footer-section__copyright__items">Privacy Policy</li>
+                    <li class="footer-section__copyright__items">FAQ</li>
+                    <li class="footer-section__copyright__items">Support</li>
+                </ul>
+                <ul class="footer-section__authors-info">
+                    <li class="footer-section__authors-info__link">Designed by ThemeFire</li>
+                    <li class="footer-section__authors-info__link">Only on Envato Market</li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
 
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
             <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <script src="../dest/js/jquery.min.js"></script>
-    <script src="../dest/js/swiper.min.js"></script>
-    
-    <script src="../dest/js/main.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+
+    <script src="js/main.min.js"></script>
 </body>
 
 </html>
